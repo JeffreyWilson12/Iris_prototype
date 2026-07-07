@@ -1,0 +1,6 @@
+{
+  "name": "Student Attendance Admin",
+  "description": "Admin dashboard for AI & Computer Vision Student Attendance System with live monitoring, analytics, and behaviour analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

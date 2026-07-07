@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#F8FAFC;
+}
+
+.login-container{
+    display:flex;
+    min-height:100vh;
+}
+
+.left-panel{
+    width:45%;
+    background:linear-gradient(135deg,#1E3A8A,#2563EB);
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:80px;
+}
+
+.left-panel h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.left-panel h2{
+    font-size:2rem;
+    margin-bottom:15px;
+}
+
+.left-panel p{
+    color:#dbeafe;
+}
+
+.login-card{
+    width:55%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:80px;
+}
+
+.login-card h2{
+    font-size:2.2rem;
+    color:#0F172A;
+}
+
+.subtitle{
+    margin-top:10px;
+    color:#64748B;
+}
+
+.input-group{
+    margin-top:25px;
+}
+
+.input-group label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+.input-group input{
+    width:100%;
+    padding:15px;
+    border:1px solid #CBD5E1;
+    border-radius:12px;
+}
+
+.roles{
+    display:flex;
+    gap:20px;
+}
+
+.role-card{
+    flex:1;
+    border:1px solid #CBD5E1;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.role-card:hover{
+    background:#EFF6FF;
+    border-color:#2563EB;
+}
+
+.extra{
+    display:flex;
+    justify-content:space-between;
+    margin-top:25px;
+}
+
+.extra a{
+    color:#2563EB;
+    text-decoration:none;
+}
+
+.login-btn{
+    width:100%;
+    margin-top:30px;
+    padding:16px;
+    border:none;
+    border-radius:15px;
+    background:#2563EB;
+    color:white;
+    font-size:1rem;
+    cursor:pointer;
+}
+
+.login-btn:hover{
+    background:#1D4ED8;
+}

@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#F4F7FC;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.dashboard{
+    display:flex;
+    min-height:100vh;
+}
+
+.main-content{
+    flex:1;
+    padding:30px;
+}
+
+/* Cards */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    margin-bottom:30px;
+}
+
+/* Camera */
+
+.camera-section{
+    width:100%;
+    margin-bottom:30px;
+}
+
+/* Chart */
+
+.chart-section{
+    width:100%;
+    margin-bottom:30px;
+}
+
+/* Table */
+
+.table-section{
+    width:100%;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+    .main-content{
+        padding:20px;
+    }
+
+    .cards{
+        grid-template-columns:1fr;
+    }
+
+}

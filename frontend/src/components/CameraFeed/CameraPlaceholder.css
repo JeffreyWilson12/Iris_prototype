@@ -1,0 +1,221 @@
+.camera-placeholder{
+
+    background:#111827;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+}
+
+/* ================= Overlay ================= */
+
+.camera-overlay{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:16px 24px;
+
+    background:#0F172A;
+
+    color:white;
+
+}
+
+.live-status{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-weight:600;
+
+}
+
+.live-dot{
+
+    width:10px;
+
+    height:10px;
+
+    background:#EF4444;
+
+    border-radius:50%;
+
+    animation:blink 1.2s infinite;
+
+}
+
+.camera-time{
+
+    font-weight:500;
+
+    color:#CBD5E1;
+
+}
+
+/* ================= Camera ================= */
+
+.camera-screen{
+
+    height:430px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.camera-frame{
+
+    width:90%;
+
+    height:85%;
+
+    border:2px dashed #334155;
+
+    border-radius:18px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+}
+.camera-frame{
+
+    width:100%;
+    height:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    overflow:hidden;
+
+}
+.live-camera{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    border-radius:15px;
+
+}
+
+.camera-frame h2{
+
+    font-size:32px;
+
+    margin-bottom:15px;
+
+}
+
+.camera-frame p{
+
+    color:#CBD5E1;
+
+    margin-bottom:8px;
+
+}
+
+.camera-frame small{
+
+    color:#94A3B8;
+
+}
+
+/* ================= Footer ================= */
+
+.camera-footer-overlay{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    background:#0F172A;
+
+}
+
+.camera-footer-overlay div{
+
+    padding:18px;
+
+    text-align:center;
+
+}
+
+.camera-footer-overlay strong{
+
+    display:block;
+
+    color:#94A3B8;
+
+    font-size:13px;
+
+    margin-bottom:6px;
+
+}
+
+.camera-footer-overlay span{
+
+    color:white;
+
+    font-weight:600;
+
+}
+
+.waiting{
+
+    color:#F59E0B !important;
+
+}
+
+/* ================= Animation ================= */
+
+@keyframes blink{
+
+    50%{
+
+        opacity:0.3;
+
+    }
+
+}
+.camera-circle{
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:50%;
+
+    background:#1E293B;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#3B82F6;
+
+}
